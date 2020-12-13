@@ -4,16 +4,16 @@ This repository contains the diagnostic tests described in the *SEM 2020 paper, 
 Some of the diagnostic tests have in turn been inspired by the diagnostic tests from [What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00298), by Allyson Ettinger.
 
 The diagnostic tests comprise of two datasets:
-1) [LM Diagnostic](): We use items from the NEG-136 diagnostic from [Ettinger, 2020](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00298), selecting the affirmative contexts.
+1) [LM Diagnostic](https://github.com/AbhilashaRavichander/probe-generalization/tree/main/Syntagmatic/LM-Diagnostic): We use items from the NEG-136 diagnostic from [Ettinger, 2020](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00298), selecting the affirmative contexts.
 Test items are drawn from Fischler et al. (1983).
-2) [LM Diagnostic-Extended](): The LM-Diagnostic datset is expanded by collecting hyponyms from WordNet, corresponding to the nine hypernyms from Fischler et al. (1983).
+2) [LM Diagnostic-Extended](https://github.com/AbhilashaRavichander/probe-generalization/tree/main/Syntagmatic/LM-Diagnostic-Extended): The LM-Diagnostic datset is expanded by collecting hyponyms from WordNet, corresponding to the nine hypernyms from Fischler et al. (1983).
 
 For each of these datasets, you will find three tab-separated files:
 * Singular: Files contain for each item the prompt in singular form, and the target completion.
 * Plural: Files contain for each item the prompt in singular form, and the target completion.
 * Contextual: Files contain for each item the hyponym to be replaced, the context featuring the hyponym, and the target hypernym.
 
-In addition, we also supply the [paradigmatic]() diagnostic, with three training-validation-test splits to support cross-validation. Each sample consists of
+In addition, we also supply the [paradigmatic](https://github.com/AbhilashaRavichander/probe-generalization/tree/main/Paradigmatic) diagnostic, with three training-validation-test splits to support cross-validation. Each sample consists of
  * a hyponym sentential context
  * a hyponym
  * a hypernym sentential context
@@ -22,6 +22,7 @@ In addition, we also supply the [paradigmatic]() diagnostic, with three training
 
 This data is licensed under the [MIT License](https://github.com/AbhilashaRavichander/probe-generalization/blob/main/LICENSE).
 
+References:
 * Allyson Ettinger. 2020. What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models.
 * Ira Fischler, Paul A Bloom, Donald G Childers, Salim E Roucos, and Nathan W Perry Jr. 1983. Brain potentials related to stages of sentence verification.
 
