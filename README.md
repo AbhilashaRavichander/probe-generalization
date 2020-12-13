@@ -22,6 +22,7 @@ In addition, we also supply the [paradigmatic](https://github.com/AbhilashaRavic
 
 This data is licensed under the [MIT License](https://github.com/AbhilashaRavichander/probe-generalization/blob/main/LICENSE).
 
+References:
 * Allyson Ettinger. 2020. What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models.
 * Ira Fischler, Paul A Bloom, Donald G Childers, Salim E Roucos, and Nathan W Perry Jr. 1983. Brain potentials related to stages of sentence verification.
 
