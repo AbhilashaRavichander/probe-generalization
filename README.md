@@ -12,6 +12,7 @@ For each of these datasets, you will find three tab-separated files:
 * Singular: Files contain for each item the prompt in singular form, and the target completion.
 * Plural: Files contain for each item the prompt in singular form, and the target completion.
 * Contextual: Files contain for each item the hyponym to be replaced, the context featuring the hyponym, and the target hypernym.
+We follow each prompt with a period (as in Ettinger 2020), but we observed sensitivity to punctuation in the open-vocabulary setting.
 
 In addition, we also supply the [paradigmatic](https://github.com/AbhilashaRavichander/probe-generalization/tree/main/Paradigmatic) diagnostic, with three training-validation-test splits to support cross-validation. Each sample consists of
  * a hyponym sentential context
